@@ -55,24 +55,25 @@ namespace EntityDataModelDemo
             // 
             // txtSalary
             // 
-            this.txtSalary.Location = new System.Drawing.Point(292, 203);
+            this.txtSalary.Location = new System.Drawing.Point(238, 216);
             this.txtSalary.Name = "txtSalary";
             this.txtSalary.Size = new System.Drawing.Size(188, 26);
             this.txtSalary.TabIndex = 23;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(405, 289);
+            this.btnSearch.Location = new System.Drawing.Point(351, 302);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 37);
             this.btnSearch.TabIndex = 22;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(158, 203);
+            this.label4.Location = new System.Drawing.Point(104, 216);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 20);
             this.label4.TabIndex = 21;
@@ -80,48 +81,51 @@ namespace EntityDataModelDemo
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(324, 289);
+            this.btnDelete.Location = new System.Drawing.Point(270, 302);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 37);
             this.btnDelete.TabIndex = 20;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(243, 289);
+            this.btnUpdate.Location = new System.Drawing.Point(189, 302);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 37);
             this.btnUpdate.TabIndex = 19;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(162, 289);
+            this.btnSave.Location = new System.Drawing.Point(108, 302);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 37);
             this.btnSave.TabIndex = 18;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // txtDesignation
             // 
-            this.txtDesignation.Location = new System.Drawing.Point(292, 160);
+            this.txtDesignation.Location = new System.Drawing.Point(238, 173);
             this.txtDesignation.Name = "txtDesignation";
             this.txtDesignation.Size = new System.Drawing.Size(188, 26);
             this.txtDesignation.TabIndex = 17;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(292, 111);
+            this.txtName.Location = new System.Drawing.Point(238, 124);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(188, 26);
             this.txtName.TabIndex = 16;
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(292, 70);
+            this.txtID.Location = new System.Drawing.Point(238, 83);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(188, 26);
             this.txtID.TabIndex = 15;
@@ -129,7 +133,7 @@ namespace EntityDataModelDemo
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(158, 160);
+            this.label3.Location = new System.Drawing.Point(104, 173);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(94, 20);
             this.label3.TabIndex = 14;
@@ -138,7 +142,7 @@ namespace EntityDataModelDemo
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(158, 117);
+            this.label2.Location = new System.Drawing.Point(104, 130);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 20);
             this.label2.TabIndex = 13;
@@ -147,7 +151,7 @@ namespace EntityDataModelDemo
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(158, 76);
+            this.label5.Location = new System.Drawing.Point(104, 89);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(26, 20);
             this.label5.TabIndex = 12;
@@ -157,7 +161,7 @@ namespace EntityDataModelDemo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(558, 450);
             this.Controls.Add(this.txtSalary);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.label4);
