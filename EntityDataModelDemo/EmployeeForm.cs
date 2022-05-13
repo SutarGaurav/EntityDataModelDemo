@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace EntityDataModelDemo
 {
-    public partial class Form1 : Form
+    public partial class EmployeeForm : Form
     {
         ApplicationEntities dbcontext = new ApplicationEntities();
 
-        public Form1()
+        public EmployeeForm()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace EntityDataModelDemo
 {
-    partial class Form1
+    partial class EmployeeForm
     {
         /// <summary>
         /// Required designer variable.
